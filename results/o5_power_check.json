@@ -1,0 +1,259 @@
+{
+  "_meta": {
+    "task": "ss",
+    "n_boot": 4000,
+    "bar": 0.01,
+    "feat_dir": "data/o4_lab_parts"
+  },
+  "per_chain_all": {
+    "acc": {
+      "aligned": 0.7798933739527799,
+      "lab": 0.7532368621477532,
+      "lab2": 0.7509520182787509,
+      "lab3": 0.7402894135567403,
+      "labavg4": 0.7654226961157654,
+      "labavg8": 0.7677075399847677,
+      "raw": 0.7182025894897182
+    },
+    "n_test": 1313,
+    "n_clusters": 47,
+    "pairs": {
+      "lab-aligned": {
+        "diff": -0.026656511805026657,
+        "lo95": -0.05303043519634588,
+        "hi95": 0.0031958632615057326,
+        "p": 0.0865,
+        "se_cluster": 0.014515634883255128,
+        "se_residue_naive": 0.011042811501027143,
+        "design_effect": 1.3144872464684345,
+        "excludes_zero": false,
+        "n_clusters": 47,
+        "n_residues": 1313,
+        "mde_95": 0.02845064437118005,
+        "mcnemar": {
+          "a_only": 88,
+          "b_only": 123,
+          "p_exact": 0.019035632981891638,
+          "note": "anticonservative: assumes independent residues"
+        },
+        "variance": {
+          "between": 0.008190166605857377,
+          "within": 0.1517999492256918,
+          "between_frac": 0.051191703708000705,
+          "mean_cluster_size": 27.93617021276596
+        }
+      },
+      "lab3-lab2": {
+        "diff": -0.010662604722010662,
+        "lo95": -0.032279211295034076,
+        "hi95": 0.017033189843408826,
+        "p": 0.4665,
+        "se_cluster": 0.01270462170082327,
+        "se_residue_naive": 0.011037124841382138,
+        "design_effect": 1.151080728306079,
+        "excludes_zero": false,
+        "n_clusters": 47,
+        "n_residues": 1313,
+        "mde_95": 0.02490105853361361,
+        "mcnemar": {
+          "a_only": 98,
+          "b_only": 112,
+          "p_exact": 0.3697117774763105,
+          "note": "anticonservative: assumes independent residues"
+        },
+        "variance": {
+          "between": 0.005418365024738455,
+          "within": 0.15440701466596363,
+          "between_frac": 0.03390178102641899,
+          "mean_cluster_size": 27.93617021276596
+        }
+      },
+      "labavg8-labavg4": {
+        "diff": 0.002284843869002285,
+        "lo95": -0.010769485903814262,
+        "hi95": 0.018138637088256686,
+        "p": 0.801,
+        "se_cluster": 0.007356087527163362,
+        "se_residue_naive": 0.007806946313999828,
+        "design_effect": 0.9422490217426035,
+        "excludes_zero": false,
+        "n_clusters": 47,
+        "n_residues": 1313,
+        "mde_95": 0.01441793155324019,
+        "mcnemar": {
+          "a_only": 54,
+          "b_only": 51,
+          "p_exact": 0.8453703188825517,
+          "note": "anticonservative: assumes independent residues"
+        },
+        "variance": {
+          "between": 0.0025741143450568617,
+          "within": 0.07739020055851739,
+          "between_frac": 0.032190788455586504,
+          "mean_cluster_size": 27.93617021276596
+        }
+      },
+      "aligned-raw": {
+        "diff": 0.06169078446306169,
+        "lo95": 0.032453194553548045,
+        "hi95": 0.09166874110953059,
+        "p": 0.00025,
+        "se_cluster": 0.01495356441552914,
+        "se_residue_naive": 0.014172311220277015,
+        "design_effect": 1.055125320288927,
+        "excludes_zero": true,
+        "n_clusters": 47,
+        "n_residues": 1313,
+        "mde_95": 0.029308986254437112,
+        "mcnemar": {
+          "a_only": 216,
+          "b_only": 135,
+          "p_exact": 1.8037674354865894e-05,
+          "note": "anticonservative: assumes independent residues"
+        },
+        "variance": {
+          "between": 0.012861987850902966,
+          "within": 0.25065899193469643,
+          "between_frac": 0.048808212011686794,
+          "mean_cluster_size": 27.93617021276596
+        }
+      }
+    }
+  },
+  "per_chain_10": {
+    "acc": {
+      "aligned": 0.7803030303030303,
+      "lab": 0.7636363636363637,
+      "lab2": 0.7378787878787879,
+      "lab3": 0.7378787878787879,
+      "labavg4": 0.7545454545454545,
+      "labavg8": 0.7621212121212121,
+      "raw": 0.6803030303030303
+    },
+    "n_test": 660,
+    "n_clusters": 47,
+    "pairs": {
+      "lab-aligned": {
+        "diff": -0.016666666666666666,
+        "lo95": -0.0471461038961039,
+        "hi95": 0.012964975845410636,
+        "p": 0.2875,
+        "se_cluster": 0.01525400213656327,
+        "se_residue_naive": 0.016940320203081945,
+        "design_effect": 0.9004553605656236,
+        "excludes_zero": false,
+        "n_clusters": 47,
+        "n_residues": 660,
+        "mde_95": 0.02989784418766401,
+        "mcnemar": {
+          "a_only": 57,
+          "b_only": 68,
+          "p_exact": 0.3711606948508094,
+          "note": "anticonservative: assumes independent residues"
+        },
+        "variance": {
+          "between": 0.011941919191919193,
+          "within": 0.17717424242424243,
+          "between_frac": 0.0631459473895046,
+          "mean_cluster_size": 14.042553191489361
+        }
+      },
+      "lab3-lab2": {
+        "diff": 0.0,
+        "lo95": -0.03176729153199741,
+        "hi95": 0.03774072869225766,
+        "p": 1.0,
+        "se_cluster": 0.017960039976370825,
+        "se_residue_naive": 0.016884809592063052,
+        "design_effect": 1.0636803381432978,
+        "excludes_zero": false,
+        "n_clusters": 47,
+        "n_residues": 660,
+        "mde_95": 0.035201678353686816,
+        "mcnemar": {
+          "a_only": 62,
+          "b_only": 62,
+          "p_exact": 1.0,
+          "note": "anticonservative: assumes independent residues"
+        },
+        "variance": {
+          "between": 0.012042929292929296,
+          "within": 0.17583585858585857,
+          "between_frac": 0.06409946236559141,
+          "mean_cluster_size": 14.042553191489361
+        }
+      },
+      "labavg8-labavg4": {
+        "diff": 0.007575757575757576,
+        "lo95": -0.015873015873015872,
+        "hi95": 0.03269318181818182,
+        "p": 0.5585,
+        "se_cluster": 0.012322422924860065,
+        "se_residue_naive": 0.011241313708166507,
+        "design_effect": 1.0961728535258437,
+        "excludes_zero": false,
+        "n_clusters": 47,
+        "n_residues": 660,
+        "mde_95": 0.024151948932725726,
+        "mcnemar": {
+          "a_only": 30,
+          "b_only": 25,
+          "p_exact": 0.5900533317766354,
+          "note": "anticonservative: assumes independent residues"
+        },
+        "variance": {
+          "between": 0.008303719008264461,
+          "within": 0.07497222222222223,
+          "between_frac": 0.09971330117160576,
+          "mean_cluster_size": 14.042553191489361
+        }
+      },
+      "aligned-raw": {
+        "diff": 0.1,
+        "lo95": 0.061287915262397685,
+        "hi95": 0.13870967741935483,
+        "p": 0.00025,
+        "se_cluster": 0.01958187483712449,
+        "se_residue_naive": 0.02097762374596594,
+        "design_effect": 0.933464870676315,
+        "excludes_zero": true,
+        "n_clusters": 47,
+        "n_residues": 660,
+        "mde_95": 0.038380474680764,
+        "mcnemar": {
+          "a_only": 132,
+          "b_only": 66,
+          "p_exact": 3.1541149499258616e-06,
+          "note": "anticonservative: assumes independent residues"
+        },
+        "variance": {
+          "between": 0.02120959595959596,
+          "within": 0.2687904040404041,
+          "between_frac": 0.07313653779171018,
+          "mean_cluster_size": 14.042553191489361
+        }
+      }
+    }
+  },
+  "_verdict": {
+    "median_mde_95": 0.02667585145239683,
+    "bar": 0.01,
+    "bar_detectable": false,
+    "median_design_effect": 1.103103024297503,
+    "null_pair_diff": -0.010662604722010662,
+    "null_pair_resolves_005": false,
+    "se_halving_from_doubling_residues_per_chain": 1.2201957762720563,
+    "per_chain_verdict": "raising --per-chain helps: SE shrank materially when residues doubled",
+    "projection": {
+      "se_now_at_20_per_chain": 0.0136101282920392,
+      "measured_se_ratio_per_doubling_of_residues": 0.819540617535328,
+      "projected_se_at_60_per_chain": 0.00992829504883809,
+      "se_needed_for_bar": 0.005102040816326531,
+      "test_clusters_now": 47,
+      "test_clusters_needed_at_60_per_chain": 177.97514306659554,
+      "test_clusters_in_full_split": 100,
+      "projected_mde_on_full_split_at_60": 0.01334073247863833,
+      "note": "the full 1500-chain split has 100 test clusters; this projects the MDE there from the measured SE on this 395-chain subset"
+    }
+  }
+}

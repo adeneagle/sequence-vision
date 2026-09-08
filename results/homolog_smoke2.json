@@ -1,0 +1,80 @@
+{
+  "cryofm:mid_block": {
+    "n": {
+      "pose": 20,
+      "homolog": 5,
+      "unrelated": 5
+    },
+    "D2_pose": 760.4033203125,
+    "D2_homolog": 1528.110107421875,
+    "D2_unrelated": 1450.202392578125,
+    "homolog_signal": -0.112942620505221,
+    "pose_fraction": 0.5243428946222316,
+    "pose_over_homolog": 0.4976102943232288
+  },
+  "cryofm:up_blocks[1]": {
+    "n": {
+      "pose": 20,
+      "homolog": 5,
+      "unrelated": 5
+    },
+    "D2_pose": 196.9694061279297,
+    "D2_homolog": 761.2826538085938,
+    "D2_unrelated": 535.6809692382812,
+    "homolog_signal": -0.6660584082180032,
+    "pose_fraction": 0.36769909225637226,
+    "pose_over_homolog": 0.2587336058985693
+  },
+  "cryofm_random:mid_block": {
+    "n": {
+      "pose": 20,
+      "homolog": 5,
+      "unrelated": 5
+    },
+    "D2_pose": 1880.5240478515625,
+    "D2_homolog": 2152.1845703125,
+    "D2_unrelated": 1999.9337158203125,
+    "homolog_signal": -1.27502954393971,
+    "pose_fraction": 0.9402931872070711,
+    "pose_over_homolog": 0.8737745237057005
+  },
+  "cryofm_random:up_blocks[1]": {
+    "n": {
+      "pose": 20,
+      "homolog": 5,
+      "unrelated": 5
+    },
+    "D2_pose": 638.8961791992188,
+    "D2_homolog": 774.460693359375,
+    "D2_unrelated": 803.22412109375,
+    "homolog_signal": 0.17503674300768585,
+    "pose_fraction": 0.795414582830548,
+    "pose_over_homolog": 0.8249562368722438
+  },
+  "sh": {
+    "n": {
+      "pose": 20,
+      "homolog": 5,
+      "unrelated": 5
+    },
+    "D2_pose": 0.18145127190266178,
+    "D2_homolog": 49.001425554880996,
+    "D2_unrelated": 152.67808697164406,
+    "homolog_signal": 0.6798619585345965,
+    "pose_fraction": 0.0011884565460684713,
+    "pose_over_homolog": 0.0037029794510659406
+  },
+  "trivial": {
+    "n": {
+      "pose": 20,
+      "homolog": 5,
+      "unrelated": 5
+    },
+    "D2_pose": 1.9721522630525295e-31,
+    "D2_homolog": 11.930476661336307,
+    "D2_unrelated": 44.21510037659084,
+    "homolog_signal": 0.7301718969374373,
+    "pose_fraction": 4.46035912223477e-33,
+    "pose_over_homolog": 1.6530372750686332e-32
+  }
+}

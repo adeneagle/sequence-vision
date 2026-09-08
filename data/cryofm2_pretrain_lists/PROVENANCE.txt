@@ -1,0 +1,3 @@
+Source: https://zenodo.org/records/18013604 (DOI 10.5281/zenodo.18013604), CC-BY-4.0, 2025-12-22.
+Only the cryofm2_pretrain_dataset lists are kept here (the emhancer/emready/cryofm1 lists are in the zip).
+Rows are 2x entries: each half-map pair appears twice with map_path1/map_path2 swapped (training uses map_path2 only).

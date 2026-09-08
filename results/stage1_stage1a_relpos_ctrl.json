@@ -1,0 +1,23 @@
+{
+  "stage1a_relpos_ctrl": {
+    "r2": 0.1967945694923401,
+    "cos": 0.41645547747612,
+    "pair": "relpos",
+    "n_tri": 0,
+    "d_pair": 64,
+    "params_M": 7.746,
+    "pair_params_M": 0.008,
+    "best_val_mse": 0.8234372868835677,
+    "epochs_run": 8,
+    "seed": 0
+  },
+  "_meta": {
+    "arm_to_beat_esmc_mlp": 0.187,
+    "esmc_ridge": 0.1694,
+    "stage0_1a_ceiling_esmc_plus_shellcomp": 0.2446,
+    "stage0_dirmom": 0.4009,
+    "stage0_full_oracle": 0.4099,
+    "sequence_tracked": 0.447,
+    "pose_ceiling": 0.849
+  }
+}

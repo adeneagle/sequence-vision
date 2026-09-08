@@ -1,0 +1,61 @@
+{
+  "_meta": {
+    "tap": "up_blocks[1]",
+    "teacher_t": 750,
+    "student": "data/cleandift_runs/distill_t1000_s0_paperhead/best.pt",
+    "limit": 150,
+    "per_chain": 20
+  },
+  "truncation_equal": true,
+  "timestep_noop": {
+    "student_identical": true,
+    "teacher_max_delta": 249.93801879882812
+  },
+  "path_agreement": {
+    "median": 0.38273704051971436,
+    "p10": 0.029042108356952666,
+    "shuffled_floor": -0.040994420647621155
+  },
+  "probe": {
+    "ss": {
+      "acc": {
+        "vol_teacher": 0.5479204339963833,
+        "vol_student": 0.6853526220614828,
+        "box_student": 0.5117540687160941
+      },
+      "prior": 0.41229656419529837,
+      "student_minus_teacher_vol": {
+        "diff": 0.13743218806509946,
+        "lo95": 0.07586680833227734,
+        "hi95": 0.18889880952380947,
+        "p": 0.0005,
+        "se_cluster": 0.02916183603683683,
+        "se_residue_naive": 0.024787481133413253,
+        "design_effect": 1.1764743613874906,
+        "excludes_zero": true,
+        "n_clusters": 20,
+        "n_residues": 553
+      }
+    },
+    "aa": {
+      "acc": {
+        "vol_teacher": 0.0759493670886076,
+        "vol_student": 0.0867992766726944,
+        "box_student": 0.0650994575045208
+      },
+      "prior": 0.10126582278481013,
+      "student_minus_teacher_vol": {
+        "diff": 0.0108499095840868,
+        "lo95": -0.009304289017845456,
+        "hi95": 0.03182010063107623,
+        "p": 0.336,
+        "se_cluster": 0.010481243988678739,
+        "se_residue_naive": 0.015351037027181226,
+        "design_effect": 0.6827710707830477,
+        "excludes_zero": false,
+        "n_clusters": 20,
+        "n_residues": 553
+      }
+    }
+  }
+}

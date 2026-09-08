@@ -1,0 +1,82 @@
+{
+  "_meta": {
+    "n_voxels": 177605,
+    "n_maps": 225,
+    "mix_ckpt": "data/dinotxt_runs/mix2_12k/best.pt",
+    "ptw_ckpt": "data/dinotxt_runs/ptw_rot_12k/best.pt",
+    "best_smoothing": "smooth12"
+  },
+  "acc": {
+    "mix": 0.5838405450297007,
+    "pointwise": 0.39733115621744886,
+    "volume_prior": 0.30844852340868784,
+    "mix_shuffled": 0.28855043495397087,
+    "smooth4": 0.4260409335322767,
+    "smooth8": 0.4680836688156302,
+    "smooth12": 0.47296528813941047,
+    "smooth20": 0.43370400608090987
+  },
+  "vs": {
+    "mix-pointwise": {
+      "diff": 0.1865093888122519,
+      "lo95": 0.16748792730073858,
+      "hi95": 0.20603224466676015,
+      "p": 0.0005,
+      "se_cluster": 0.009864708581087577,
+      "se_residue_naive": 0.0013852702770628474,
+      "design_effect": 7.121143609609139,
+      "excludes_zero": true,
+      "n_clusters": 225,
+      "n_residues": 177605
+    },
+    "mix-smooth12": {
+      "diff": 0.11087525689029025,
+      "lo95": 0.09469528201081151,
+      "hi95": 0.12826156648818784,
+      "p": 0.0005,
+      "se_cluster": 0.008353476011008654,
+      "se_residue_naive": 0.0013488120902410755,
+      "design_effect": 6.193209618632365,
+      "excludes_zero": true,
+      "n_clusters": 225,
+      "n_residues": 177605
+    },
+    "smooth12-pointwise": {
+      "diff": 0.07563413192196165,
+      "lo95": 0.06498799207317775,
+      "hi95": 0.08660546617730243,
+      "p": 0.0005,
+      "se_cluster": 0.005597337873723228,
+      "se_residue_naive": 0.001209795301062231,
+      "design_effect": 4.626681777329292,
+      "excludes_zero": true,
+      "n_clusters": 225,
+      "n_residues": 177605
+    },
+    "mix-volume_prior": {
+      "diff": 0.2753920216210129,
+      "lo95": 0.24053343941828279,
+      "hi95": 0.31004182815527853,
+      "p": 0.0005,
+      "se_cluster": 0.01792687419961773,
+      "se_residue_naive": 0.001518262941936546,
+      "design_effect": 11.807489799330796,
+      "excludes_zero": true,
+      "n_clusters": 225,
+      "n_residues": 177605
+    },
+    "mix-mix_shuffled": {
+      "diff": 0.29529011007572986,
+      "lo95": 0.2612926653225007,
+      "hi95": 0.3294845203540742,
+      "p": 0.0005,
+      "se_cluster": 0.017531790395603944,
+      "se_residue_naive": 0.0014045614239345632,
+      "design_effect": 12.482038946002499,
+      "excludes_zero": true,
+      "n_clusters": 225,
+      "n_residues": 177605
+    }
+  },
+  "geometric_fraction": 0.4055245283018866
+}

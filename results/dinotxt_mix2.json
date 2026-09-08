@@ -1,0 +1,87 @@
+{
+  "_meta": {
+    "n_voxels": 177605,
+    "n_maps": 225,
+    "split": "test",
+    "ckpt": "data/dinotxt_runs/mix2_12k/best.pt",
+    "step": 11500,
+    "gated_on": [
+      "volume_prior",
+      "shuffled",
+      "untrained_head",
+      "aa_classifier"
+    ]
+  },
+  "acc": {
+    "trained": 0.5860983643478506,
+    "untrained_head": 0.1976802454885842,
+    "shuffled": 0.28848849976070495,
+    "volume_prior": 0.3087356774865572,
+    "aa_classifier": 0.2479603614763098,
+    "aa_classifier_hard": 0.20247740773063821
+  },
+  "vs": {
+    "untrained_head": {
+      "diff": 0.38841811885926636,
+      "lo95": 0.356040069926454,
+      "hi95": 0.42186345369030287,
+      "p": 0.0005,
+      "se_cluster": 0.01639971817707252,
+      "se_residue_naive": 0.0014623015306257081,
+      "design_effect": 11.215004452641994,
+      "excludes_zero": true,
+      "n_clusters": 225,
+      "n_residues": 177605
+    },
+    "shuffled": {
+      "diff": 0.2976098645871456,
+      "lo95": 0.26310912328171265,
+      "hi95": 0.3312940025432875,
+      "p": 0.0005,
+      "se_cluster": 0.017587107480517523,
+      "se_residue_naive": 0.001403926190372062,
+      "design_effect": 12.527088390492002,
+      "excludes_zero": true,
+      "n_clusters": 225,
+      "n_residues": 177605
+    },
+    "volume_prior": {
+      "diff": 0.27736268686129334,
+      "lo95": 0.2429810342007078,
+      "hi95": 0.31196151804437705,
+      "p": 0.0005,
+      "se_cluster": 0.017995397821114742,
+      "se_residue_naive": 0.001517119667405714,
+      "design_effect": 11.861554633911647,
+      "excludes_zero": true,
+      "n_clusters": 225,
+      "n_residues": 177605
+    },
+    "aa_classifier": {
+      "diff": 0.3381380028715408,
+      "lo95": 0.3053282737007796,
+      "hi95": 0.3706351035198742,
+      "p": 0.0005,
+      "se_cluster": 0.016483294625507124,
+      "se_residue_naive": 0.001463971505564806,
+      "design_effect": 11.259300172750155,
+      "excludes_zero": true,
+      "n_clusters": 225,
+      "n_residues": 177605
+    },
+    "aa_classifier_hard": {
+      "diff": 0.38362095661721235,
+      "lo95": 0.35123121923268213,
+      "hi95": 0.41598242626012705,
+      "p": 0.0005,
+      "se_cluster": 0.016165393713645483,
+      "se_residue_naive": 0.001441644122264003,
+      "design_effect": 11.213165207692759,
+      "excludes_zero": true,
+      "n_clusters": 225,
+      "n_residues": 177605
+    }
+  },
+  "G0_PASS": true,
+  "G0_DECIDED": true
+}

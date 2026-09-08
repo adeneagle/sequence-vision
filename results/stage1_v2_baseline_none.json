@@ -1,0 +1,23 @@
+{
+  "v2_baseline_none": {
+    "r2": 0.17782151699066162,
+    "cos": 0.40532445907592773,
+    "pair": "none",
+    "n_tri": 0,
+    "d_pair": 64,
+    "params_M": 7.607,
+    "pair_params_M": 0.0,
+    "best_val_mse": 0.8311553195156411,
+    "epochs_run": 25,
+    "seed": 0
+  },
+  "_meta": {
+    "arm_to_beat_esmc_mlp": 0.187,
+    "esmc_ridge": 0.1694,
+    "stage0_1a_ceiling_esmc_plus_shellcomp": 0.2446,
+    "stage0_dirmom": 0.4009,
+    "stage0_full_oracle": 0.4099,
+    "sequence_tracked": 0.447,
+    "pose_ceiling": 0.849
+  }
+}

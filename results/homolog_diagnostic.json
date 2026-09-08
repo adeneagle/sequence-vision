@@ -1,0 +1,212 @@
+{
+  "cryofm:mid_block": {
+    "n": {
+      "pose": 577,
+      "homolog": 149,
+      "unrelated": 145
+    },
+    "D2_pose": 669.792236328125,
+    "D2_homolog": 1666.70947265625,
+    "D2_unrelated": 1765.8367919921875,
+    "r2_ceiling": 0.05613617282495497,
+    "homolog_signal": 0.09044095773632035,
+    "pose_fraction": 0.37930585621815965,
+    "pose_over_homolog": 0.4018650204589472
+  },
+  "cryofm:mid_block [-trivial]": {
+    "n": {
+      "pose": 577,
+      "homolog": 149,
+      "unrelated": 145
+    },
+    "D2_pose": 770.2735028491961,
+    "D2_homolog": 1812.5303829492868,
+    "D2_unrelated": 1884.2469046617862,
+    "r2_ceiling": 0.038061106288706965,
+    "homolog_signal": 0.06437902520455746,
+    "pose_fraction": 0.4087964804100112,
+    "pose_over_homolog": 0.42497136053291074
+  },
+  "cryofm:up_blocks[0]": {
+    "n": {
+      "pose": 577,
+      "homolog": 149,
+      "unrelated": 145
+    },
+    "D2_pose": 651.8041381835938,
+    "D2_homolog": 1582.171142578125,
+    "D2_unrelated": 1736.7696533203125,
+    "r2_ceiling": 0.0890149769986077,
+    "homolog_signal": 0.1424916355269653,
+    "pose_fraction": 0.3752968258844752,
+    "pose_over_homolog": 0.41196816238317197
+  },
+  "cryofm:up_blocks[0] [-trivial]": {
+    "n": {
+      "pose": 577,
+      "homolog": 149,
+      "unrelated": 145
+    },
+    "D2_pose": 759.9856301573584,
+    "D2_homolog": 1778.68746168505,
+    "D2_unrelated": 1781.713145834347,
+    "r2_ceiling": 0.0016981881490693291,
+    "homolog_signal": 0.002961341554251994,
+    "pose_fraction": 0.4265476919975632,
+    "pose_over_homolog": 0.4272732824221865
+  },
+  "cryofm:up_blocks[1]": {
+    "n": {
+      "pose": 577,
+      "homolog": 149,
+      "unrelated": 145
+    },
+    "D2_pose": 173.559326171875,
+    "D2_homolog": 724.0333251953125,
+    "D2_unrelated": 847.2548828125,
+    "r2_ceiling": 0.14543623190243307,
+    "homolog_signal": 0.18290391914061355,
+    "pose_fraction": 0.20484901260850472,
+    "pose_over_homolog": 0.23971179244416171
+  },
+  "cryofm:up_blocks[1] [-trivial]": {
+    "n": {
+      "pose": 577,
+      "homolog": 149,
+      "unrelated": 145
+    },
+    "D2_pose": 207.71137986358528,
+    "D2_homolog": 829.0494082366688,
+    "D2_unrelated": 811.5342947111261,
+    "r2_ceiling": -0.021582715160272273,
+    "homolog_signal": -0.029007036822981582,
+    "pose_fraction": 0.25594898603456095,
+    "pose_over_homolog": 0.25054161766470967
+  },
+  "cryofm_random:mid_block": {
+    "n": {
+      "pose": 577,
+      "homolog": 149,
+      "unrelated": 145
+    },
+    "D2_pose": 1638.7919921875,
+    "D2_homolog": 2027.4388427734375,
+    "D2_unrelated": 1960.5213623046875,
+    "r2_ceiling": -0.03413249238462022,
+    "homolog_signal": -0.20799307332238837,
+    "pose_fraction": 0.8358960140383377,
+    "pose_over_homolog": 0.8083064986294296
+  },
+  "cryofm_random:mid_block [-trivial]": {
+    "n": {
+      "pose": 577,
+      "homolog": 149,
+      "unrelated": 145
+    },
+    "D2_pose": 1941.9976627824915,
+    "D2_homolog": 2267.8864811429894,
+    "D2_unrelated": 1986.504927781804,
+    "r2_ceiling": -0.14164654183636236,
+    "homolog_signal": -6.322148830433213,
+    "pose_fraction": 0.9775951902374534,
+    "pose_over_homolog": 0.8563028524266111
+  },
+  "cryofm_random:up_blocks[0]": {
+    "n": {
+      "pose": 577,
+      "homolog": 149,
+      "unrelated": 145
+    },
+    "D2_pose": 1602.578125,
+    "D2_homolog": 1961.392333984375,
+    "D2_unrelated": 1908.477294921875,
+    "r2_ceiling": -0.027726313120568783,
+    "homolog_signal": -0.17298196355359258,
+    "pose_fraction": 0.8397155833418509,
+    "pose_over_homolog": 0.8170614808841027
+  },
+  "cryofm_random:up_blocks[0] [-trivial]": {
+    "n": {
+      "pose": 577,
+      "homolog": 149,
+      "unrelated": 145
+    },
+    "D2_pose": 1891.219693663633,
+    "D2_homolog": 2211.9154436989966,
+    "D2_unrelated": 2044.690914522512,
+    "r2_ceiling": -0.08178474701910425,
+    "homolog_signal": -1.0896149013517795,
+    "pose_fraction": 0.9249416037559308,
+    "pose_over_homolog": 0.8550144622621457
+  },
+  "cryofm_random:up_blocks[1]": {
+    "n": {
+      "pose": 577,
+      "homolog": 149,
+      "unrelated": 145
+    },
+    "D2_pose": 476.1653137207031,
+    "D2_homolog": 707.4771728515625,
+    "D2_unrelated": 751.256103515625,
+    "r2_ceiling": 0.05827430946542981,
+    "homolog_signal": 0.15914357109774327,
+    "pose_fraction": 0.6338255509571372,
+    "pose_over_homolog": 0.6730468939393024
+  },
+  "cryofm_random:up_blocks[1] [-trivial]": {
+    "n": {
+      "pose": 577,
+      "homolog": 149,
+      "unrelated": 145
+    },
+    "D2_pose": 732.0119707599654,
+    "D2_homolog": 1014.4015345640553,
+    "D2_unrelated": 936.6388334956468,
+    "r2_ceiling": -0.08302314434069409,
+    "homolog_signal": -0.3800219581573475,
+    "pose_fraction": 0.7815306653771873,
+    "pose_over_homolog": 0.7216195419839853
+  },
+  "sh": {
+    "n": {
+      "pose": 577,
+      "homolog": 149,
+      "unrelated": 145
+    },
+    "D2_pose": 0.0381027813110487,
+    "D2_homolog": 34.42974983516388,
+    "D2_unrelated": 83.40836553404623,
+    "r2_ceiling": 0.5872146682803645,
+    "homolog_signal": 0.5874830434941322,
+    "pose_fraction": 0.00045682205935920945,
+    "pose_over_homolog": 0.0011066819100768914
+  },
+  "sh [-trivial]": {
+    "n": {
+      "pose": 577,
+      "homolog": 149,
+      "unrelated": 145
+    },
+    "D2_pose": 0.05114230320137526,
+    "D2_homolog": 42.98546987903039,
+    "D2_unrelated": 86.16353701931803,
+    "r2_ceiling": 0.5011176262484098,
+    "homolog_signal": 0.5014152408910596,
+    "pose_fraction": 0.000593549254946545,
+    "pose_over_homolog": 0.0011897579192527105
+  },
+  "trivial": {
+    "n": {
+      "pose": 577,
+      "homolog": 149,
+      "unrelated": 145
+    },
+    "D2_pose": 4.930380657631324e-32,
+    "D2_homolog": 15.632427314852093,
+    "D2_unrelated": 42.08921851392941,
+    "r2_ceiling": 0.6285883210286133,
+    "homolog_signal": 0.6285883210286133,
+    "pose_fraction": 1.1714117847067216e-33,
+    "pose_over_homolog": 3.1539443992469785e-33
+  }
+}

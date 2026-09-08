@@ -1,0 +1,84 @@
+{
+  "ss": {
+    "prior": {
+      "acc": 0.4339415256100242,
+      "macro_f1": null
+    },
+    "raw": {
+      "acc": 0.737634644976918,
+      "macro_f1": 0.7206491612427577,
+      "dim": 512
+    },
+    "random": {
+      "acc": 0.5927676412398329,
+      "macro_f1": 0.5388502415839264,
+      "dim": 128
+    },
+    "cryofm_t10d": {
+      "acc": 0.6885029676852056,
+      "macro_f1": 0.6664891488565445,
+      "dim": 128
+    },
+    "cryofm_t261d": {
+      "acc": 0.7625851835568257,
+      "macro_f1": 0.7491828544897795,
+      "dim": 128
+    },
+    "cryofm_t500d": {
+      "acc": 0.7735766102440097,
+      "macro_f1": 0.7630548623706145,
+      "dim": 128
+    },
+    "cryofm_t261c": {
+      "acc": 0.7708287535722137,
+      "macro_f1": 0.7607379929894611,
+      "dim": 128
+    }
+  },
+  "aa": {
+    "prior": {
+      "acc": 0.08979995603429325,
+      "macro_f1": null
+    },
+    "raw": {
+      "acc": 0.2619256979555946,
+      "macro_f1": 0.20848679788642013,
+      "dim": 512
+    },
+    "random": {
+      "acc": 0.12420312156517917,
+      "macro_f1": 0.07505444044143275,
+      "dim": 128
+    },
+    "cryofm_t10d": {
+      "acc": 0.20784787865464938,
+      "macro_f1": 0.14501079529889732,
+      "dim": 128
+    },
+    "cryofm_t261d": {
+      "acc": 0.2378544735106617,
+      "macro_f1": 0.17447608459219174,
+      "dim": 128
+    },
+    "cryofm_t500d": {
+      "acc": 0.2475269289953836,
+      "macro_f1": 0.18164827057000824,
+      "dim": 128
+    },
+    "cryofm_t261c": {
+      "acc": 0.23928335897999561,
+      "macro_f1": 0.1753764879895592,
+      "dim": 128
+    }
+  },
+  "_meta": {
+    "tap": "up_blocks[2]",
+    "timestep": 10,
+    "per_chain": 40,
+    "n_train": 44559,
+    "n_test": 9098,
+    "density": "REAL experimental maps (Cryo2StructData raw_emd)",
+    "external_reference": "ModelAngelo ~49% top-1 AA at 4-5 A",
+    "kill_criterion": "cryofm must beat raw voxels, else the teacher is out"
+  }
+}

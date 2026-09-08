@@ -1,0 +1,23 @@
+{
+  "mid_block": {
+    "frac_residues_affected": 0.20895396020048795,
+    "cos_affected": 0.9343205392360687,
+    "cos_unaffected": 1.0,
+    "n_affected": 2960,
+    "n_unaffected": 26477
+  },
+  "up_blocks[0]": {
+    "frac_residues_affected": 0.13989485284222503,
+    "cos_affected": 0.9337364435195923,
+    "cos_unaffected": 1.0,
+    "n_affected": 2273,
+    "n_unaffected": 27164
+  },
+  "up_blocks[1]": {
+    "frac_residues_affected": 0.0,
+    "cos_affected": null,
+    "cos_unaffected": 1.0,
+    "n_affected": 0,
+    "n_unaffected": 29437
+  }
+}

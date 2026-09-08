@@ -1,0 +1,23 @@
+# Data and model weights are NOT in this repo -- they are 371 GB of caches plus
+# 42 GB of checkpoints. Everything here is code, small metadata, and results.
+data/*.npy_dir/
+data/voxel_cache*/
+data/cleandift_vols/
+data/cleandift_runs/
+data/dinotxt_runs/
+data/esmc_*/
+data/maps/
+data/map_chains/
+data/*.npz
+data/*.npy
+data/*.mrc
+data/*.map
+weights/
+envs/
+.pixi/
+logs/
+results/*.npz
+*.pt
+*.ckpt
+__pycache__/
+*.pyc

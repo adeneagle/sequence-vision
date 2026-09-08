@@ -1,0 +1,55 @@
+{
+  "_meta": {
+    "n_maps": 225,
+    "mean_pool": 11.0,
+    "tol": 0.25,
+    "ckpt": "data/dinotxt_runs/mix2_12k/best.pt",
+    "pool_len_spread_median": 0.014815085785140682,
+    "pool_len_spread_p90": 0.1548890686963677,
+    "step": 11500
+  },
+  "acc": {
+    "retrieval": 0.6977777777777778,
+    "length_only": 0.09777777777777778,
+    "chance": 0.0909090909090909,
+    "aa_composition": 0.17333333333333334
+  },
+  "vs": {
+    "chance": {
+      "diff": 0.6068686868686868,
+      "lo95": 0.5490909090909091,
+      "hi95": 0.669090909090909,
+      "p": 0.0005,
+      "se_cluster": 0.0304701675312403,
+      "se_residue_naive": 0.03068299542275615,
+      "design_effect": 0.9930636533824855,
+      "excludes_zero": true,
+      "n_clusters": 225,
+      "n_residues": 225
+    },
+    "length_only": {
+      "diff": 0.6,
+      "lo95": 0.5244444444444445,
+      "hi95": 0.6711111111111111,
+      "p": 0.0005,
+      "se_cluster": 0.036904442183523865,
+      "se_residue_naive": 0.037267799624996496,
+      "design_effect": 0.9902500967288416,
+      "excludes_zero": true,
+      "n_clusters": 225,
+      "n_residues": 225
+    },
+    "aa_composition": {
+      "diff": 0.5244444444444445,
+      "lo95": 0.45766666666666667,
+      "hi95": 0.5955555555555555,
+      "p": 0.0005,
+      "se_cluster": 0.036479130316655235,
+      "se_residue_naive": 0.0367627408957192,
+      "design_effect": 0.9922853799212509,
+      "excludes_zero": true,
+      "n_clusters": 225,
+      "n_residues": 225
+    }
+  }
+}

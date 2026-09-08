@@ -1,0 +1,156 @@
+{
+  "cryofm:mid_block": {
+    "n": {
+      "pose": 30,
+      "homolog": 8,
+      "unrelated": 6
+    },
+    "D2_pose": 556.2899169921875,
+    "D2_homolog": 1779.488037109375,
+    "D2_unrelated": 2193.4208374023438,
+    "r2_ceiling": 0.1887156323285353,
+    "homolog_signal": 0.25284037771961737,
+    "pose_fraction": 0.2536175035389007,
+    "pose_over_homolog": 0.3126123387127865
+  },
+  "cryofm:mid_block [-trivial]": {
+    "n": {
+      "pose": 30,
+      "homolog": 8,
+      "unrelated": 6
+    },
+    "D2_pose": 3033.0724462671924,
+    "D2_homolog": 2407.9801771137118,
+    "D2_unrelated": 1293.144572169463,
+    "r2_ceiling": -0.8621121171888219,
+    "homolog_signal": null,
+    "pose_fraction": 2.3455014323562553,
+    "pose_over_homolog": 1.2595919497571353
+  },
+  "cryofm:up_blocks[1]": {
+    "n": {
+      "pose": 30,
+      "homolog": 8,
+      "unrelated": 6
+    },
+    "D2_pose": 177.47132873535156,
+    "D2_homolog": 949.7125549316406,
+    "D2_unrelated": 923.8028259277344,
+    "r2_ceiling": -0.028046817217609453,
+    "homolog_signal": -0.034716113551921376,
+    "pose_fraction": 0.19210953220144672,
+    "pose_over_homolog": 0.18686846647839228
+  },
+  "cryofm:up_blocks[1] [-trivial]": {
+    "n": {
+      "pose": 30,
+      "homolog": 8,
+      "unrelated": 6
+    },
+    "D2_pose": 1152.683224580655,
+    "D2_homolog": 1209.6800325022455,
+    "D2_unrelated": 702.4130363057582,
+    "r2_ceiling": -0.7221776504382467,
+    "homolog_signal": null,
+    "pose_fraction": 1.6410333592938835,
+    "pose_over_homolog": 0.9528827405676098
+  },
+  "cryofm_random:mid_block": {
+    "n": {
+      "pose": 30,
+      "homolog": 8,
+      "unrelated": 6
+    },
+    "D2_pose": 1191.7952880859375,
+    "D2_homolog": 2726.193115234375,
+    "D2_unrelated": 1936.5428466796875,
+    "r2_ceiling": -0.40776286974935133,
+    "homolog_signal": -1.0602925238798016,
+    "pose_fraction": 0.6154241772286826,
+    "pose_over_homolog": 0.43716466064931614
+  },
+  "cryofm_random:mid_block [-trivial]": {
+    "n": {
+      "pose": 30,
+      "homolog": 8,
+      "unrelated": 6
+    },
+    "D2_pose": 6575.771207745483,
+    "D2_homolog": 2495.6800925186553,
+    "D2_unrelated": 1316.9797956367686,
+    "r2_ceiling": -0.8950025663164993,
+    "homolog_signal": null,
+    "pose_fraction": 4.993069164410418,
+    "pose_over_homolog": 2.6348614261330163
+  },
+  "cryofm_random:up_blocks[1]": {
+    "n": {
+      "pose": 30,
+      "homolog": 8,
+      "unrelated": 6
+    },
+    "D2_pose": 300.18212890625,
+    "D2_homolog": 992.5547485351562,
+    "D2_unrelated": 1042.9385375976562,
+    "r2_ceiling": 0.04830945184800239,
+    "homolog_signal": 0.06783352990688635,
+    "pose_fraction": 0.28782341248766274,
+    "pose_over_homolog": 0.30243382478323566
+  },
+  "cryofm_random:up_blocks[1] [-trivial]": {
+    "n": {
+      "pose": 30,
+      "homolog": 8,
+      "unrelated": 6
+    },
+    "D2_pose": 1783.7647550407669,
+    "D2_homolog": 1225.3923747341275,
+    "D2_unrelated": 708.4607392948569,
+    "r2_ceiling": -0.7296545973087817,
+    "homolog_signal": null,
+    "pose_fraction": 2.517803254441705,
+    "pose_over_homolog": 1.4556682347789123
+  },
+  "sh": {
+    "n": {
+      "pose": 30,
+      "homolog": 8,
+      "unrelated": 6
+    },
+    "D2_pose": 0.017933403636151146,
+    "D2_homolog": 78.12192934729833,
+    "D2_unrelated": 90.5093640297828,
+    "r2_ceiling": 0.13686357003246966,
+    "homolog_signal": 0.1368906933703094,
+    "pose_fraction": 0.00019813865480537485,
+    "pose_over_homolog": 0.00022955658911630978
+  },
+  "sh [-trivial]": {
+    "n": {
+      "pose": 30,
+      "homolog": 8,
+      "unrelated": 6
+    },
+    "D2_pose": 0.0689777764821786,
+    "D2_homolog": 113.04091203898247,
+    "D2_unrelated": 86.50990954493625,
+    "r2_ceiling": -0.3066816580158958,
+    "homolog_signal": -0.3069263825743315,
+    "pose_fraction": 0.0007973395977988989,
+    "pose_over_homolog": 0.0006102018750378749
+  },
+  "trivial": {
+    "n": {
+      "pose": 30,
+      "homolog": 8,
+      "unrelated": 6
+    },
+    "D2_pose": 0.0,
+    "D2_homolog": 15.824705355334185,
+    "D2_unrelated": 57.341692254173765,
+    "r2_ceiling": 0.7240279326743737,
+    "homolog_signal": 0.7240279326743737,
+    "pose_fraction": 0.0,
+    "pose_over_homolog": 0.0
+  }
+}

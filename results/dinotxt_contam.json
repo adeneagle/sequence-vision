@@ -1,0 +1,44 @@
+{
+  "_meta": {
+    "ckpt": "data/dinotxt_runs/v2_nc500_long/best.pt",
+    "step": 11500,
+    "n_maps": 225,
+    "n_seen_maps": 28
+  },
+  "seen": {
+    "n_voxels": 22400,
+    "n_maps": 28,
+    "trained": 0.47767857142857145,
+    "volume_prior": 0.39174107142857145,
+    "vs_prior": {
+      "diff": 0.0859375,
+      "lo95": -0.0032611607142857143,
+      "hi95": 0.1676350446428571,
+      "p": 0.056,
+      "se_cluster": 0.043132248268539966,
+      "se_residue_naive": 0.004166391156645411,
+      "design_effect": 10.352424111630482,
+      "excludes_zero": false,
+      "n_clusters": 28,
+      "n_residues": 22400
+    }
+  },
+  "unseen": {
+    "n_voxels": 156954,
+    "n_maps": 197,
+    "trained": 0.3802706525478803,
+    "volume_prior": 0.29889649196579887,
+    "vs_prior": {
+      "diff": 0.08137416058208137,
+      "lo95": 0.05844307886387094,
+      "hi95": 0.10515466209052553,
+      "p": 0.0005,
+      "se_cluster": 0.0113680389918558,
+      "se_residue_naive": 0.0015608117988718316,
+      "design_effect": 7.28341431047146,
+      "excludes_zero": true,
+      "n_clusters": 197,
+      "n_residues": 156954
+    }
+  }
+}

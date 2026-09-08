@@ -1,0 +1,18 @@
+{
+  "single_layer32": {
+    "r2": 0.2032284140586853,
+    "cos": 0.43796494603157043,
+    "weights": [
+      1.0
+    ]
+  },
+  "_meta": {
+    "mode": "single",
+    "layers": [
+      32
+    ],
+    "n_train": 279078,
+    "n_test": 52132,
+    "final_layer_reference_r2": 0.187
+  }
+}

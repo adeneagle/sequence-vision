@@ -1,0 +1,87 @@
+{
+  "ss": {
+    "prior": 0.45392231530845395,
+    "aligned": {
+      "acc": 0.7798933739527799,
+      "se": 0.011434095377590235,
+      "dim": 256
+    },
+    "lab": {
+      "acc": 0.7532368621477532,
+      "se": 0.0118979889642502,
+      "dim": 256
+    },
+    "lab2": {
+      "acc": 0.7509520182787509,
+      "se": 0.011934802721893924,
+      "dim": 256
+    },
+    "lab3": {
+      "acc": 0.7402894135567403,
+      "se": 0.012100776310048555,
+      "dim": 256
+    },
+    "labavg4": {
+      "acc": 0.7661843107387661,
+      "se": 0.011680759683159559,
+      "dim": 256
+    },
+    "labavg8": {
+      "acc": 0.766945925361767,
+      "se": 0.011667514771316142,
+      "dim": 256
+    },
+    "raw": {
+      "acc": 0.7166793602437167,
+      "se": 0.012435670105409745,
+      "dim": 512
+    }
+  },
+  "aa": {
+    "prior": 0.08758568164508758,
+    "aligned": {
+      "acc": 0.15841584158415842,
+      "se": 0.010076639401573998,
+      "dim": 256
+    },
+    "lab": {
+      "acc": 0.13480578827113482,
+      "se": 0.009424942508818892,
+      "dim": 256
+    },
+    "lab2": {
+      "acc": 0.11195734958111196,
+      "se": 0.008701835186325092,
+      "dim": 256
+    },
+    "lab3": {
+      "acc": 0.11957349581111958,
+      "se": 0.008954300277420257,
+      "dim": 256
+    },
+    "labavg4": {
+      "acc": 0.14242193450114243,
+      "se": 0.009644792962144454,
+      "dim": 256
+    },
+    "labavg8": {
+      "acc": 0.13861386138613863,
+      "se": 0.00953608047274976,
+      "dim": 256
+    },
+    "raw": {
+      "acc": 0.1827875095201828,
+      "se": 0.010666167333103053,
+      "dim": 512
+    }
+  },
+  "_meta": {
+    "tap": "up_blocks[1]",
+    "timestep": 261,
+    "coupled": true,
+    "n_train": 5900,
+    "n_test": 1313,
+    "n_chains": 395,
+    "note": "FRAME-FREE arms: frk does NOT depend on the residue. Box CENTRE is still the CA coord, so these are frame-free, not fully model-free. Supersedes o4_frame_arms, which rotated the convention of the backbone frame (R @ fr) and so never removed the atomic-model dependency."
+  }
+}

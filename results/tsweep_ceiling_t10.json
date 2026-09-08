@@ -1,0 +1,98 @@
+{
+  "trivial_aa (median-degenerate)": {
+    "n_residues": {
+      "homolog": 1996,
+      "unrelated": 2311
+    },
+    "D2_pose": 0.0,
+    "D2_homolog": 0.0,
+    "D2_unrelated": 36.33347012268448,
+    "r2_ceiling": 1.0,
+    "homolog_signal": 1.0,
+    "pose_fraction": 0.0
+  },
+  "local:up_blocks[0]": {
+    "n_residues": {
+      "homolog": 1996,
+      "unrelated": 2311
+    },
+    "D2_pose": 139.55905151367188,
+    "D2_homolog": 458.16961669921875,
+    "D2_unrelated": 908.5379638671875,
+    "r2_ceiling": 0.49570669039626925,
+    "homolog_signal": 0.5856706080399315,
+    "pose_fraction": 0.153608387391584
+  },
+  "local [-aa]": {
+    "n_residues": {
+      "homolog": 1996,
+      "unrelated": 2311
+    },
+    "D2_pose": 143.33193542690384,
+    "D2_homolog": 479.8674524571998,
+    "D2_unrelated": 920.5808040083464,
+    "r2_ceiling": 0.4787340227302316,
+    "homolog_signal": 0.5670170383850063,
+    "pose_fraction": 0.15569728893196033
+  },
+  "local [-seqwin3]": {
+    "n_residues": {
+      "homolog": 1996,
+      "unrelated": 2311
+    },
+    "D2_pose": 157.57466912622687,
+    "D2_homolog": 543.8584961771674,
+    "D2_unrelated": 989.7644736066609,
+    "r2_ceiling": 0.45051725872179527,
+    "homolog_signal": 0.5358224470292431,
+    "pose_fraction": 0.15920420799913262
+  },
+  "frameavg:up_blocks[0]": {
+    "n_residues": {
+      "homolog": 1996,
+      "unrelated": 2311
+    },
+    "D2_pose": 147.08595275878906,
+    "D2_homolog": 513.453857421875,
+    "D2_unrelated": 795.6621704101562,
+    "r2_ceiling": 0.35468358743611694,
+    "homolog_signal": 0.4351197365981407,
+    "pose_fraction": 0.1848598038574181
+  },
+  "frameavg [-aa]": {
+    "n_residues": {
+      "homolog": 1996,
+      "unrelated": 2311
+    },
+    "D2_pose": 150.59437567076344,
+    "D2_homolog": 526.8651064064051,
+    "D2_unrelated": 808.1478635477175,
+    "r2_ceiling": 0.34805852966869094,
+    "homolog_signal": 0.4277716753499269,
+    "pose_fraction": 0.18634507676561038
+  },
+  "frameavg [-seqwin3]": {
+    "n_residues": {
+      "homolog": 1996,
+      "unrelated": 2311
+    },
+    "D2_pose": 161.30087332426336,
+    "D2_homolog": 581.5537490944275,
+    "D2_unrelated": 861.3733232962059,
+    "r2_ceiling": 0.3248528444449574,
+    "homolog_signal": 0.39970087983464136,
+    "pose_fraction": 0.18726012167060788
+  },
+  "_meta": {
+    "n_pairs": 115,
+    "aligned_identity_homolog": 0.6372745490981964,
+    "aligned_identity_unrelated": 0.055387278234530504,
+    "tap": "up_blocks[0]",
+    "n_res_per_chain": 40,
+    "rungs": [
+      "local",
+      "frameavg"
+    ],
+    "n_frames": 24
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "v2_stage1a_esm": {
+    "r2": 0.18662744760513306,
+    "cos": 0.4127356708049774,
+    "pair": "esm",
+    "n_tri": 0,
+    "d_pair": 64,
+    "params_M": 8.066,
+    "pair_params_M": 0.328,
+    "best_val_mse": 0.8214412932914323,
+    "epochs_run": 25,
+    "seed": 0
+  },
+  "_meta": {
+    "arm_to_beat_esmc_mlp": 0.187,
+    "esmc_ridge": 0.1694,
+    "stage0_1a_ceiling_esmc_plus_shellcomp": 0.2446,
+    "stage0_dirmom": 0.4009,
+    "stage0_full_oracle": 0.4099,
+    "sequence_tracked": 0.447,
+    "pose_ceiling": 0.849
+  }
+}

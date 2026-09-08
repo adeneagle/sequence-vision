@@ -1,0 +1,100 @@
+{
+  "cryofm:mid_block": {
+    "n": {
+      "pose": 528,
+      "homolog": 130,
+      "unrelated": 118
+    },
+    "D2_pose": 517.3140869140625,
+    "D2_homolog": 1750.1411743164062,
+    "D2_unrelated": 1682.64453125,
+    "r2_ceiling": -0.04011342967148532,
+    "homolog_signal": -0.057920603889199125,
+    "pose_fraction": 0.3074411007830401,
+    "pose_over_homolog": 0.2955842045805945
+  },
+  "cryofm:mid_block [-trivial]": {
+    "n": {
+      "pose": 528,
+      "homolog": 130,
+      "unrelated": 118
+    },
+    "D2_pose": 574.6710533317403,
+    "D2_homolog": 1860.904987543595,
+    "D2_unrelated": 1777.6754917113897,
+    "r2_ceiling": -0.046819285195904566,
+    "homolog_signal": -0.0691846955646389,
+    "pose_fraction": 0.32327106719488913,
+    "pose_over_homolog": 0.30881267833577536
+  },
+  "cryofm:up_blocks[1]": {
+    "n": {
+      "pose": 528,
+      "homolog": 130,
+      "unrelated": 118
+    },
+    "D2_pose": 225.71273803710938,
+    "D2_homolog": 879.6508483886719,
+    "D2_unrelated": 888.1560668945312,
+    "r2_ceiling": 0.009576265729510995,
+    "homolog_signal": 0.01283916394860391,
+    "pose_fraction": 0.2541363465841334,
+    "pose_over_homolog": 0.2565935546479217
+  },
+  "cryofm:up_blocks[1] [-trivial]": {
+    "n": {
+      "pose": 528,
+      "homolog": 130,
+      "unrelated": 118
+    },
+    "D2_pose": 247.74271781352695,
+    "D2_homolog": 968.7270717290564,
+    "D2_unrelated": 893.4491669464306,
+    "r2_ceiling": -0.08425538639193707,
+    "homolog_signal": -0.11658224086767885,
+    "pose_fraction": 0.27728798344537614,
+    "pose_over_homolog": 0.25574047122615995
+  },
+  "sh": {
+    "n": {
+      "pose": 528,
+      "homolog": 130,
+      "unrelated": 118
+    },
+    "D2_pose": 0.027078199874308522,
+    "D2_homolog": 97.4505571498265,
+    "D2_unrelated": 104.5674818186455,
+    "r2_ceiling": 0.06806059154376601,
+    "homolog_signal": 0.06807822069228266,
+    "pose_fraction": 0.00025895430781503425,
+    "pose_over_homolog": 0.0002778660344925153
+  },
+  "sh [-trivial]": {
+    "n": {
+      "pose": 528,
+      "homolog": 130,
+      "unrelated": 118
+    },
+    "D2_pose": 0.0316151353275682,
+    "D2_homolog": 110.16701574280651,
+    "D2_unrelated": 104.03975580067495,
+    "r2_ceiling": -0.05889344794186655,
+    "homolog_signal": -0.058911349659123285,
+    "pose_fraction": 0.0003038755241615349,
+    "pose_over_homolog": 0.00028697460046822176
+  },
+  "trivial": {
+    "n": {
+      "pose": 528,
+      "homolog": 130,
+      "unrelated": 118
+    },
+    "D2_pose": 0.0,
+    "D2_homolog": 15.86988719045333,
+    "D2_unrelated": 44.698536715398134,
+    "r2_ceiling": 0.6449573440960913,
+    "homolog_signal": 0.6449573440960913,
+    "pose_fraction": 0.0,
+    "pose_over_homolog": 0.0
+  }
+}

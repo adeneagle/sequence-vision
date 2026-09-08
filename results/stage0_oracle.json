@@ -1,0 +1,102 @@
+{
+  "seqwin3": {
+    "r2": 0.03590727857132192,
+    "cos": 0.17623330824457847,
+    "dim": 140
+  },
+  "esmc": {
+    "r2": 0.16937874652239937,
+    "cos": 0.396552417038044,
+    "dim": 1152
+  },
+  "coord": {
+    "r2": 0.16452912504261663,
+    "cos": 0.3764930167876485,
+    "dim": 9
+  },
+  "shellcomp": {
+    "r2": 0.17506734697339454,
+    "cos": 0.38995126741735864,
+    "dim": 180
+  },
+  "shellcomp+own": {
+    "r2": 0.18052319703854247,
+    "cos": 0.39739516129758723,
+    "dim": 200
+  },
+  "shellcomp_far": {
+    "r2": 0.16957380558510504,
+    "cos": 0.38253016668582807,
+    "dim": 180
+  },
+  "bb_only": {
+    "r2": 0.027793204482663647,
+    "cos": 0.14864976114690331,
+    "dim": 16
+  },
+  "dirmom": {
+    "r2": 0.4008822932570463,
+    "cos": 0.6348033618515504,
+    "dim": 81
+  },
+  "dirmom_far": {
+    "r2": 0.3841922306457777,
+    "cos": 0.6222475637103835,
+    "dim": 81
+  },
+  "bb+dirmom_far": {
+    "r2": 0.39576361300636365,
+    "cos": 0.6307334100949158,
+    "dim": 97
+  },
+  "shellcomp+dirmom": {
+    "r2": 0.4073091418566901,
+    "cos": 0.6389054179042695,
+    "dim": 261
+  },
+  "full_oracle": {
+    "r2": 0.4098825708972027,
+    "cos": 0.6404680461940297,
+    "dim": 446
+  },
+  "esmc+shellcomp": {
+    "r2": 0.24464652974059786,
+    "cos": 0.4772390762876065,
+    "dim": 1332
+  },
+  "esmc+bb": {
+    "r2": 0.1790997226926988,
+    "cos": 0.4091012629798363,
+    "dim": 1168
+  },
+  "esmc+full_oracle": {
+    "r2": 0.4167087295586571,
+    "cos": 0.6445893882505416,
+    "dim": 1598
+  },
+  "_meta": {
+    "n_train": 279078,
+    "n_test": 52132,
+    "target_dim": 512,
+    "shell_edges": [
+      0.0,
+      5.0,
+      6.5,
+      8.0,
+      10.0,
+      12.0,
+      15.0,
+      20.0,
+      30.0,
+      48.0
+    ],
+    "reference_esmc_ridge": 0.169,
+    "reference_esmc_mlp": 0.187,
+    "reference_seqwin3": 0.036,
+    "diagnostic_sequence_tracked": 0.447,
+    "pose_ceiling": 0.849,
+    "seq_near_threshold": 4,
+    "single_outer_product_bound_arm": "shellcomp",
+    "note": "shellcomp bounds a single outer-product + row-pool head. Triangle multiplicative updates are designed to reconstruct relative geometry from pairwise distances, so they are NOT bounded by shellcomp -- their ceiling is the dirmom arms."
+  }
+}

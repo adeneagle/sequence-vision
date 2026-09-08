@@ -1,0 +1,54 @@
+{
+  "ss": {
+    "prior": {
+      "acc": 0.44087539710554186,
+      "macro_f1": null
+    },
+    "raw": {
+      "acc": 0.7506177197317332,
+      "macro_f1": 0.7333780242082343,
+      "dim": 512
+    },
+    "random": {
+      "acc": 0.6696964348746911,
+      "macro_f1": 0.6401026191634419,
+      "dim": 128
+    },
+    "cryofm": {
+      "acc": 0.6945817154959407,
+      "macro_f1": 0.6727456840181816,
+      "dim": 128
+    }
+  },
+  "aa": {
+    "prior": {
+      "acc": 0.08798093893399224,
+      "macro_f1": null
+    },
+    "raw": {
+      "acc": 0.2779738792799153,
+      "macro_f1": 0.21892576066340025,
+      "dim": 512
+    },
+    "random": {
+      "acc": 0.17243205082950935,
+      "macro_f1": 0.11679642077575807,
+      "dim": 128
+    },
+    "cryofm": {
+      "acc": 0.21929050476526651,
+      "macro_f1": 0.15305766686861444,
+      "dim": 128
+    }
+  },
+  "_meta": {
+    "tap": "up_blocks[2]",
+    "timestep": 10,
+    "per_chain": 50,
+    "n_train": 55583,
+    "n_test": 11332,
+    "density": "REAL experimental maps (Cryo2StructData raw_emd)",
+    "external_reference": "ModelAngelo ~49% top-1 AA at 4-5 A",
+    "kill_criterion": "cryofm must beat raw voxels, else the teacher is out"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "_meta": {
+    "n_voxels": 177605,
+    "n_maps": 225,
+    "split": "test",
+    "ckpt": "data/dinotxt_runs/ptw_rot_12k/best.pt",
+    "step": 10000,
+    "gated_on": [
+      "volume_prior",
+      "shuffled",
+      "untrained_head",
+      "aa_classifier"
+    ]
+  },
+  "acc": {
+    "trained": 0.3981982489231722,
+    "untrained_head": 0.22370428760451563,
+    "shuffled": 0.23758903184031982,
+    "volume_prior": 0.30928183328172065,
+    "smooth4": 0.4267560034908927,
+    "smooth8": 0.4701387911376369,
+    "smooth12": 0.4753526083162073,
+    "smooth20": 0.436367219391346,
+    "aa_classifier": 0.2480842318628417,
+    "aa_classifier_hard": 0.20186368627009374
+  },
+  "vs": {
+    "untrained_head": {
+      "diff": 0.17449396131865658,
+      "lo95": 0.1558815678056249,
+      "hi95": 0.19403071975947284,
+      "p": 0.0005,
+      "se_cluster": 0.009604148582921716,
+      "se_residue_naive": 0.001426784511158445,
+      "design_effect": 6.731323831882537,
+      "excludes_zero": true,
+      "n_clusters": 225,
+      "n_residues": 177605
+    },
+    "shuffled": {
+      "diff": 0.1606092170828524,
+      "lo95": 0.13866791687675234,
+      "hi95": 0.18379062908765884,
+      "p": 0.0005,
+      "se_cluster": 0.011302200993065975,
+      "se_residue_naive": 0.0013327214212732036,
+      "design_effect": 8.480542754590466,
+      "excludes_zero": true,
+      "n_clusters": 225,
+      "n_residues": 177605
+    },
+    "volume_prior": {
+      "diff": 0.08891641564145153,
+      "lo95": 0.06563139586380859,
+      "hi95": 0.11155545070326095,
+      "p": 0.0005,
+      "se_cluster": 0.011793957597689251,
+      "se_residue_naive": 0.0014804632502983706,
+      "design_effect": 7.966396731099075,
+      "excludes_zero": true,
+      "n_clusters": 225,
+      "n_residues": 177605
+    },
+    "smooth4": {
+      "diff": -0.028557754567720504,
+      "lo95": -0.03217546597239461,
+      "hi95": -0.02480611112677054,
+      "p": 0.0005,
+      "se_cluster": 0.001914519055050329,
+      "se_residue_naive": 0.0007226168139384552,
+      "design_effect": 2.649425003849118,
+      "excludes_zero": true,
+      "n_clusters": 225,
+      "n_residues": 177605
+    },
+    "smooth8": {
+      "diff": -0.07194054221446468,
+      "lo95": -0.08038970297382683,
+      "hi95": -0.06302791975351373,
+      "p": 0.0005,
+      "se_cluster": 0.004534932566955638,
+      "se_residue_naive": 0.0010845935718763113,
+      "design_effect": 4.181227590267158,
+      "excludes_zero": true,
+      "n_clusters": 225,
+      "n_residues": 177605
+    },
+    "smooth12": {
+      "diff": -0.07715435939303511,
+      "lo95": -0.08807119369698804,
+      "hi95": -0.06596142915265751,
+      "p": 0.0005,
+      "se_cluster": 0.005794706236291955,
+      "se_residue_naive": 0.0012144344376299387,
+      "design_effect": 4.771526610856626,
+      "excludes_zero": true,
+      "n_clusters": 225,
+      "n_residues": 177605
+    },
+    "smooth20": {
+      "diff": -0.03816897046817375,
+      "lo95": -0.05042418858192241,
+      "hi95": -0.024665653275157497,
+      "p": 0.0005,
+      "se_cluster": 0.006459116486189292,
+      "se_residue_naive": 0.0013155867682341218,
+      "design_effect": 4.909684896617802,
+      "excludes_zero": true,
+      "n_clusters": 225,
+      "n_residues": 177605
+    },
+    "aa_classifier": {
+      "diff": 0.1501140170603305,
+      "lo95": 0.13210896164284583,
+      "hi95": 0.16748886962221296,
+      "p": 0.0005,
+      "se_cluster": 0.009120989696853104,
+      "se_residue_naive": 0.0013951209652062727,
+      "design_effect": 6.537776955781422,
+      "excludes_zero": true,
+      "n_clusters": 225,
+      "n_residues": 177605
+    },
+    "aa_classifier_hard": {
+      "diff": 0.19633456265307847,
+      "lo95": 0.17858383925315968,
+      "hi95": 0.21431960652130483,
+      "p": 0.0005,
+      "se_cluster": 0.00914017165107725,
+      "se_residue_naive": 0.0013704174405323967,
+      "design_effect": 6.669625897001401,
+      "excludes_zero": true,
+      "n_clusters": 225,
+      "n_residues": 177605
+    }
+  },
+  "G0_PASS": true,
+  "G0_DECIDED": true
+}

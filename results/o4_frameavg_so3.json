@@ -1,0 +1,64 @@
+{
+  "ss": {
+    "prior": 0.43716679360243715,
+    "K1": {
+      "acc": 0.7776085300837776,
+      "dim": 256
+    },
+    "K4": {
+      "acc": 0.7753236862147753,
+      "dim": 256
+    },
+    "K8": {
+      "acc": 0.7905559786747905,
+      "dim": 256
+    },
+    "K24": {
+      "acc": 0.773038842345773,
+      "dim": 256
+    },
+    "raw": {
+      "acc": 0.7151561309977151,
+      "dim": 512
+    }
+  },
+  "aa": {
+    "prior": 0.0913937547600914,
+    "K1": {
+      "acc": 0.16222391469916222,
+      "dim": 256
+    },
+    "K4": {
+      "acc": 0.17136329017517135,
+      "dim": 256
+    },
+    "K8": {
+      "acc": 0.16450875856816452,
+      "dim": 256
+    },
+    "K24": {
+      "acc": 0.16374714394516374,
+      "dim": 256
+    },
+    "raw": {
+      "acc": 0.18507235338918507,
+      "dim": 512
+    }
+  },
+  "_meta": {
+    "tap": "up_blocks[1]",
+    "timestep": 261,
+    "coupled": true,
+    "rotation": "so3",
+    "Ks": [
+      1,
+      4,
+      8,
+      24
+    ],
+    "n_train": 5900,
+    "n_test": 1313,
+    "readout": "mean of central 2^3 feature cells (flip-symmetric)",
+    "question": "how much TASK signal survives imposed octahedral invariance"
+  }
+}

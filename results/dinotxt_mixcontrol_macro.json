@@ -1,0 +1,167 @@
+{
+  "_meta": {
+    "n_voxels": 177605,
+    "n_maps": 225,
+    "mix_ckpt": "data/dinotxt_runs/mix2_12k/best.pt",
+    "ptw_ckpt": "data/dinotxt_runs/ptw_rot_12k/best.pt",
+    "best_smoothing": "smooth12",
+    "best_smoothing_macro": "smooth8"
+  },
+  "acc": {
+    "mix": 0.5835646518960614,
+    "pointwise": 0.39684693561555134,
+    "volume_prior": 0.30902283156442667,
+    "mix_shuffled": 0.289400636243349,
+    "smooth4": 0.4249711438304102,
+    "smooth8": 0.46732918555220854,
+    "smooth12": 0.4716027138875595,
+    "smooth20": 0.4340868781847358
+  },
+  "macro": {
+    "mix": {
+      "macro_iou": 0.4022821588998891,
+      "macro_recall": 0.5522872572597768
+    },
+    "pointwise": {
+      "macro_iou": 0.24399606807071803,
+      "macro_recall": 0.40300295606807335
+    },
+    "volume_prior": {
+      "macro_iou": 0.08911445032635844,
+      "macro_recall": 0.1814190573103034
+    },
+    "mix_shuffled": {
+      "macro_iou": 0.16262647287930243,
+      "macro_recall": 0.2667404743782959
+    },
+    "smooth4": {
+      "macro_iou": 0.26560444035290864,
+      "macro_recall": 0.4267543124334938
+    },
+    "smooth8": {
+      "macro_iou": 0.29228145327025595,
+      "macro_recall": 0.4519277941572687
+    },
+    "smooth12": {
+      "macro_iou": 0.28308871722792517,
+      "macro_recall": 0.4359839035117246
+    },
+    "smooth20": {
+      "macro_iou": 0.22656252097859939,
+      "macro_recall": 0.37080437069916444
+    }
+  },
+  "vs": {
+    "mix-pointwise": {
+      "diff": 0.18671771628051012,
+      "lo95": 0.16760124988255234,
+      "hi95": 0.20611544417086494,
+      "p": 0.0005,
+      "se_cluster": 0.009863135560349233,
+      "se_residue_naive": 0.0013850321413632037,
+      "design_effect": 7.121232255766673,
+      "excludes_zero": true,
+      "n_clusters": 225,
+      "n_residues": 177605
+    },
+    "mix-smooth12": {
+      "diff": 0.11196193800850202,
+      "lo95": 0.09558818601582203,
+      "hi95": 0.12883555316061435,
+      "p": 0.0005,
+      "se_cluster": 0.00846412486750849,
+      "se_residue_naive": 0.001355236778882858,
+      "design_effect": 6.245495251748993,
+      "excludes_zero": true,
+      "n_clusters": 225,
+      "n_residues": 177605
+    },
+    "smooth12-pointwise": {
+      "diff": 0.0747557782720081,
+      "lo95": 0.06386173360453203,
+      "hi95": 0.0858231497327415,
+      "p": 0.0005,
+      "se_cluster": 0.005609934661806687,
+      "se_residue_naive": 0.001210469372554032,
+      "design_effect": 4.634511858792425,
+      "excludes_zero": true,
+      "n_clusters": 225,
+      "n_residues": 177605
+    },
+    "mix-volume_prior": {
+      "diff": 0.2745418203316348,
+      "lo95": 0.24063604173585765,
+      "hi95": 0.3091004990810975,
+      "p": 0.0005,
+      "se_cluster": 0.017803267768774635,
+      "se_residue_naive": 0.0015120071419214422,
+      "design_effect": 11.774592378016441,
+      "excludes_zero": true,
+      "n_clusters": 225,
+      "n_residues": 177605
+    },
+    "mix-mix_shuffled": {
+      "diff": 0.2941640156527125,
+      "lo95": 0.2608322204599207,
+      "hi95": 0.3281148056317228,
+      "p": 0.0005,
+      "se_cluster": 0.017403896227083764,
+      "se_residue_naive": 0.0014042667375671787,
+      "design_effect": 12.393582900948815,
+      "excludes_zero": true,
+      "n_clusters": 225,
+      "n_residues": 177605
+    }
+  },
+  "vs_macro": {
+    "mix-pointwise": {
+      "diff": 0.15828609082917103,
+      "lo95": 0.13989131220570078,
+      "hi95": 0.17749968198893354,
+      "p": 0.0005,
+      "se_cluster": 0.009392563857750029,
+      "se_residue_naive": 0.009239062619229509,
+      "design_effect": 1.0166143736487978,
+      "excludes_zero": true,
+      "n_clusters": 225,
+      "n_residues": 225
+    },
+    "mix-smooth8": {
+      "diff": 0.1100007056296331,
+      "lo95": 0.09569782556517036,
+      "hi95": 0.12485000642007915,
+      "p": 0.0005,
+      "se_cluster": 0.007372363970636906,
+      "se_residue_naive": 0.007385984808426304,
+      "design_effect": 0.998155853533051,
+      "excludes_zero": true,
+      "n_clusters": 225,
+      "n_residues": 225
+    },
+    "smooth8-pointwise": {
+      "diff": 0.048285385199537956,
+      "lo95": 0.03979167898928627,
+      "hi95": 0.05713518258576986,
+      "p": 0.0005,
+      "se_cluster": 0.004480478415247437,
+      "se_residue_naive": 0.00430295000110749,
+      "design_effect": 1.0412573732193622,
+      "excludes_zero": true,
+      "n_clusters": 225,
+      "n_residues": 225
+    },
+    "mix-volume_prior": {
+      "diff": 0.3131677085735306,
+      "lo95": 0.2849427903262779,
+      "hi95": 0.3417932158160544,
+      "p": 0.0005,
+      "se_cluster": 0.014350414706535163,
+      "se_residue_naive": 0.014285799430851284,
+      "design_effect": 1.0045230423398173,
+      "excludes_zero": true,
+      "n_clusters": 225,
+      "n_residues": 225
+    }
+  },
+  "geometric_fraction": 0.4003678909595322
+}

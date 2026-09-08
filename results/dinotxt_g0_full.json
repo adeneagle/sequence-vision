@@ -1,0 +1,100 @@
+{
+  "_meta": {
+    "n_voxels": 179354,
+    "n_maps": 225,
+    "split": "test",
+    "ckpt": "data/dinotxt_runs/v2_nc500_long/best.pt",
+    "step": 11500,
+    "gated_on": [
+      "volume_prior",
+      "shuffled",
+      "untrained_head",
+      "aa_classifier"
+    ]
+  },
+  "acc": {
+    "trained": 0.39378547453639173,
+    "untrained_head": 0.21249595771491017,
+    "shuffled": 0.23523311439945582,
+    "volume_prior": 0.3115458813296609,
+    "aa_classifier": 0.2503819262464177,
+    "aa_classifier_hard": 0.20447271875731793,
+    "random_vision": 0.1971185476766618
+  },
+  "vs": {
+    "untrained_head": {
+      "diff": 0.18128951682148153,
+      "lo95": 0.16155759001750727,
+      "hi95": 0.20124446625110118,
+      "p": 0.0005,
+      "se_cluster": 0.00999059411979797,
+      "se_residue_naive": 0.0014144884791034227,
+      "design_effect": 7.0630438263665,
+      "excludes_zero": true,
+      "n_clusters": 225,
+      "n_residues": 179354
+    },
+    "shuffled": {
+      "diff": 0.15855236013693588,
+      "lo95": 0.13800056617643328,
+      "hi95": 0.1807258847735474,
+      "p": 0.0005,
+      "se_cluster": 0.010970349697965412,
+      "se_residue_naive": 0.0013270849134437226,
+      "design_effect": 8.266501703721334,
+      "excludes_zero": true,
+      "n_clusters": 225,
+      "n_residues": 179354
+    },
+    "volume_prior": {
+      "diff": 0.08223959320673083,
+      "lo95": 0.06032915784496815,
+      "hi95": 0.10447284794782014,
+      "p": 0.0005,
+      "se_cluster": 0.011230718756446921,
+      "se_residue_naive": 0.0014622164002761557,
+      "design_effect": 7.680613317102637,
+      "excludes_zero": true,
+      "n_clusters": 225,
+      "n_residues": 179354
+    },
+    "aa_classifier": {
+      "diff": 0.143403548289974,
+      "lo95": 0.12640602947576804,
+      "hi95": 0.1603683218662533,
+      "p": 0.0005,
+      "se_cluster": 0.00864784344707729,
+      "se_residue_naive": 0.0013848295904217267,
+      "design_effect": 6.244698630712921,
+      "excludes_zero": true,
+      "n_clusters": 225,
+      "n_residues": 179354
+    },
+    "aa_classifier_hard": {
+      "diff": 0.18931275577907378,
+      "lo95": 0.17214016720012534,
+      "hi95": 0.20723862128125914,
+      "p": 0.0005,
+      "se_cluster": 0.00882929197643328,
+      "se_residue_naive": 0.0013610366516839084,
+      "design_effect": 6.487181638723292,
+      "excludes_zero": true,
+      "n_clusters": 225,
+      "n_residues": 179354
+    },
+    "random_vision": {
+      "diff": 0.19666692685972992,
+      "lo95": 0.17913871098962572,
+      "hi95": 0.21425597222222223,
+      "p": 0.0005,
+      "se_cluster": 0.00881034203519294,
+      "se_residue_naive": 0.0013281119523776668,
+      "design_effect": 6.633734467504889,
+      "excludes_zero": true,
+      "n_clusters": 225,
+      "n_residues": 179354
+    }
+  },
+  "G0_PASS": true,
+  "G0_DECIDED": true
+}

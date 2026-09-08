@@ -1,0 +1,73 @@
+{
+  "ss": {
+    "prior": 0.44097486671744096,
+    "aligned": {
+      "acc": 0.7684691546077684,
+      "dim": 256
+    },
+    "rand1": {
+      "acc": 0.7837014470677837,
+      "dim": 256
+    },
+    "rand2": {
+      "acc": 0.7677075399847677,
+      "dim": 256
+    },
+    "rand3": {
+      "acc": 0.7654226961157654,
+      "dim": 256
+    },
+    "randavg4": {
+      "acc": 0.7776085300837776,
+      "dim": 256
+    },
+    "randavg8": {
+      "acc": 0.7745620715917746,
+      "dim": 256
+    },
+    "raw": {
+      "acc": 0.6968773800456969,
+      "dim": 512
+    }
+  },
+  "aa": {
+    "prior": 0.09672505712109672,
+    "aligned": {
+      "acc": 0.14546839299314546,
+      "dim": 256
+    },
+    "rand1": {
+      "acc": 0.15917745620715917,
+      "dim": 256
+    },
+    "rand2": {
+      "acc": 0.15232292460015232,
+      "dim": 256
+    },
+    "rand3": {
+      "acc": 0.15613099771515612,
+      "dim": 256
+    },
+    "randavg4": {
+      "acc": 0.16450875856816452,
+      "dim": 256
+    },
+    "randavg8": {
+      "acc": 0.16907844630616908,
+      "dim": 256
+    },
+    "raw": {
+      "acc": 0.1805026656511805,
+      "dim": 512
+    }
+  },
+  "_meta": {
+    "tap": "up_blocks[1]",
+    "timestep": 261,
+    "coupled": true,
+    "n_train": 5900,
+    "n_test": 1313,
+    "n_chains": 395,
+    "note": "randavg* EXCLUDE the identity (proper Haar estimate); rand1-3 are single unaveraged orientations; probe rerun on cached parts after preemption"
+  }
+}

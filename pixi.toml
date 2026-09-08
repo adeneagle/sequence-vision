@@ -1,0 +1,58 @@
+[project]
+name = "sequence-vision"
+version = "0.1.0"
+description = "Aligning ESM-C sequence embeddings to cryo-EM density foundation model features"
+channels = ["conda-forge", "bioconda"]
+platforms = ["linux-64"]
+
+# Dedicated env, separate from ../../aden/aden/pixi.toml.
+# Rationale: CryoFM pins numpy<2.0 (see third_party/cryofm/pyproject.toml); the main
+# lab env has numpy 2.2.6 + torch 2.11/CUDA 13. Keeping them apart avoids a downgrade
+# of the ESM training env.
+#
+# natten is deliberately NOT installed: it is a soft import in
+# third_party/cryofm/src/cryofm/core/models/hdit/model.py:40 and is only required for
+# CryoFM1's HDiT neighborhood attention. The CryoFM2 UNet3D path (our primary tap)
+# does not need it.
+
+[dependencies]
+python = "3.10.*"
+pip = "*"
+# 30%-identity clustering of the paired sequences. Correlated EMDB deposition
+# series otherwise inflate apparent evidence in any cross-protein claim.
+mmseqs2 = "*"
+
+[pypi-dependencies]
+# Core numerics -- numpy pinned by CryoFM
+numpy = "<2.0"
+scipy = "*"
+pandas = "*"
+scikit-image = "*"
+scikit-learn = "*"
+
+# torch: default PyPI wheels ship bundled CUDA 12.x, fine for H100/H200/L40
+torch = "*"
+
+# cryo-EM I/O and volume handling
+mrcfile = "*"
+starfile = ">=0.4.12"
+gemmi = "*"
+
+# CryoFM runtime deps
+mmengine = "*"
+monai = "*"
+diffusers = "*"
+safetensors = "*"
+accelerate = "*"
+einops = "*"
+torchdiffeq = "*"
+mmcv-lite = "*"
+xmltodict = "*"
+huggingface-hub = "*"
+
+# Utilities
+tqdm = "*"
+matplotlib = "*"
+requests = "*"
+
+[tasks]

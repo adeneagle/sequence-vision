@@ -1,0 +1,135 @@
+{
+  "trivial_aa (median-degenerate)": {
+    "n_residues": {
+      "homolog": 94,
+      "unrelated": 100
+    },
+    "D2_pose": 0.0,
+    "D2_homolog": 0.0,
+    "D2_unrelated": 36.621336420219265,
+    "r2_ceiling": 1.0,
+    "homolog_signal": 1.0,
+    "pose_fraction": 0.0
+  },
+  "local:up_blocks[0]": {
+    "n_residues": {
+      "homolog": 94,
+      "unrelated": 100
+    },
+    "D2_pose": 142.60147094726562,
+    "D2_homolog": 534.1913452148438,
+    "D2_unrelated": 940.1682739257812,
+    "r2_ceiling": 0.43181304875959486,
+    "homolog_signal": 0.5090193413201445,
+    "pose_fraction": 0.15167654014936785
+  },
+  "local [-aa]": {
+    "n_residues": {
+      "homolog": 94,
+      "unrelated": 100
+    },
+    "D2_pose": 161.17250894096622,
+    "D2_homolog": 629.599340805252,
+    "D2_unrelated": 1060.1095198586586,
+    "r2_ceiling": 0.40609971987687205,
+    "homolog_signal": 0.4789102838405933,
+    "pose_fraction": 0.15203382850712904
+  },
+  "local [-seqwin3]": {
+    "n_residues": {
+      "homolog": 94,
+      "unrelated": 100
+    },
+    "D2_pose": 565.5500607905316,
+    "D2_homolog": 4256.973353947759,
+    "D2_unrelated": 6358.979692132794,
+    "r2_ceiling": 0.3305571711112077,
+    "homolog_signal": 0.36282590312536983,
+    "pose_fraction": 0.08893723335682595
+  },
+  "frameavg:up_blocks[0]": {
+    "n_residues": {
+      "homolog": 94,
+      "unrelated": 100
+    },
+    "D2_pose": 234.28945922851562,
+    "D2_homolog": 845.6436767578125,
+    "D2_unrelated": 1148.724609375,
+    "r2_ceiling": 0.2638412463210728,
+    "homolog_signal": 0.33144059758489886,
+    "pose_fraction": 0.2039561591319857
+  },
+  "frameavg [-aa]": {
+    "n_residues": {
+      "homolog": 94,
+      "unrelated": 100
+    },
+    "D2_pose": 275.40167502468705,
+    "D2_homolog": 1004.4863147796102,
+    "D2_unrelated": 1308.1779486142143,
+    "r2_ceiling": 0.2321485652286925,
+    "homolog_signal": 0.29405365092198577,
+    "pose_fraction": 0.2105230984182442
+  },
+  "frameavg [-seqwin3]": {
+    "n_residues": {
+      "homolog": 94,
+      "unrelated": 100
+    },
+    "D2_pose": 1057.7472836910474,
+    "D2_homolog": 6424.3020824218565,
+    "D2_unrelated": 7074.60896833773,
+    "r2_ceiling": 0.09192124806138532,
+    "homolog_signal": 0.10808074374973116,
+    "pose_fraction": 0.14951317994040011
+  },
+  "sh:SH": {
+    "n_residues": {
+      "homolog": 94,
+      "unrelated": 100
+    },
+    "D2_pose": 1.1782017439555288,
+    "D2_homolog": 39.439064932736045,
+    "D2_unrelated": 134.27493959980657,
+    "r2_ceiling": 0.7062812684907522,
+    "homolog_signal": 0.7125334263998376,
+    "pose_fraction": 0.008774546817649255
+  },
+  "sh [-aa]": {
+    "n_residues": {
+      "homolog": 94,
+      "unrelated": 100
+    },
+    "D2_pose": 1.4188120637299801,
+    "D2_homolog": 51.3850213825341,
+    "D2_unrelated": 156.07828108434006,
+    "r2_ceiling": 0.6707740434765094,
+    "homolog_signal": 0.676927577501604,
+    "pose_fraction": 0.009090387553430937
+  },
+  "sh [-seqwin3]": {
+    "n_residues": {
+      "homolog": 94,
+      "unrelated": 100
+    },
+    "D2_pose": 5.052592530046324,
+    "D2_homolog": 287.6572487782229,
+    "D2_unrelated": 688.9953385741017,
+    "r2_ceiling": 0.5824975400072533,
+    "homolog_signal": 0.5868007111958273,
+    "pose_fraction": 0.0073332753462495535
+  },
+  "_meta": {
+    "n_pairs": 8,
+    "aligned_identity_homolog": 0.5638297872340425,
+    "aligned_identity_unrelated": 0.07,
+    "tap": "up_blocks[0]",
+    "n_res_per_chain": 25,
+    "rungs": [
+      "local",
+      "frameavg",
+      "sh"
+    ],
+    "n_frames": 24
+  }
+}

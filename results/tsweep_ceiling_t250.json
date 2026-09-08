@@ -1,0 +1,98 @@
+{
+  "trivial_aa (median-degenerate)": {
+    "n_residues": {
+      "homolog": 1996,
+      "unrelated": 2311
+    },
+    "D2_pose": 0.0,
+    "D2_homolog": 0.0,
+    "D2_unrelated": 36.33347012268448,
+    "r2_ceiling": 1.0,
+    "homolog_signal": 1.0,
+    "pose_fraction": 0.0
+  },
+  "local:up_blocks[0]": {
+    "n_residues": {
+      "homolog": 1996,
+      "unrelated": 2311
+    },
+    "D2_pose": 30.565282821655273,
+    "D2_homolog": 376.2364501953125,
+    "D2_unrelated": 924.819580078125,
+    "r2_ceiling": 0.5931785417394282,
+    "homolog_signal": 0.6134531660242951,
+    "pose_fraction": 0.03304999535052366
+  },
+  "local [-aa]": {
+    "n_residues": {
+      "homolog": 1996,
+      "unrelated": 2311
+    },
+    "D2_pose": 31.47431025329282,
+    "D2_homolog": 397.53278224321684,
+    "D2_unrelated": 926.402867892424,
+    "r2_ceiling": 0.5708856308404917,
+    "homolog_signal": 0.5909634698041086,
+    "pose_fraction": 0.03397475476829773
+  },
+  "local [-seqwin3]": {
+    "n_residues": {
+      "homolog": 1996,
+      "unrelated": 2311
+    },
+    "D2_pose": 34.783939068120105,
+    "D2_homolog": 463.25096326431736,
+    "D2_unrelated": 997.6530776344343,
+    "r2_ceiling": 0.5356592650796549,
+    "homolog_signal": 0.5550101181618794,
+    "pose_fraction": 0.034865766314877075
+  },
+  "frameavg:up_blocks[0]": {
+    "n_residues": {
+      "homolog": 1996,
+      "unrelated": 2311
+    },
+    "D2_pose": 139.5159454345703,
+    "D2_homolog": 458.492919921875,
+    "D2_unrelated": 766.5889892578125,
+    "r2_ceiling": 0.4019051586355636,
+    "homolog_signal": 0.4913240528686844,
+    "pose_fraction": 0.18199575964382855
+  },
+  "frameavg [-aa]": {
+    "n_residues": {
+      "homolog": 1996,
+      "unrelated": 2311
+    },
+    "D2_pose": 142.79758953928666,
+    "D2_homolog": 471.2840267233381,
+    "D2_unrelated": 773.3329140440076,
+    "r2_ceiling": 0.39058066950901943,
+    "homolog_signal": 0.4790356314421017,
+    "pose_fraction": 0.1846521555542644
+  },
+  "frameavg [-seqwin3]": {
+    "n_residues": {
+      "homolog": 1996,
+      "unrelated": 2311
+    },
+    "D2_pose": 154.31637573203602,
+    "D2_homolog": 525.1239267149809,
+    "D2_unrelated": 827.2533783600027,
+    "r2_ceiling": 0.3652199671205713,
+    "homolog_signal": 0.44897137542613935,
+    "pose_fraction": 0.18654064131833728
+  },
+  "_meta": {
+    "n_pairs": 115,
+    "aligned_identity_homolog": 0.6372745490981964,
+    "aligned_identity_unrelated": 0.055387278234530504,
+    "tap": "up_blocks[0]",
+    "n_res_per_chain": 40,
+    "rungs": [
+      "local",
+      "frameavg"
+    ],
+    "n_frames": 24
+  }
+}
